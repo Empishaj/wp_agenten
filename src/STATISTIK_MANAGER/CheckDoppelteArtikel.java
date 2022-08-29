@@ -81,11 +81,11 @@ public class CheckDoppelteArtikel implements java.io.Serializable {
 
 	    html_email.setDescription("Doppelte Artikel vom: " + date2 + " ");
 
-	    html_email.setFrom(new InternetAddress("info@wplag.de", " WPLAG - Wilken Poelker"));
+	    html_email.setFrom(new InternetAddress("xxxx", " xxx"));
 
-	    html_email.setRecipient(Message.RecipientType.TO, new InternetAddress("pishaj.emiliano@gmail.com"));
+	    html_email.setRecipient(Message.RecipientType.TO, new InternetAddress("xxx"));
 
-	    html_email.setRecipient(Message.RecipientType.BCC, new InternetAddress("cp@wilkenpoelker.de"));
+	    html_email.setRecipient(Message.RecipientType.BCC, new InternetAddress("xxx"));
 
 	    html_email.setHeader("SSL", "text/plain");
 
@@ -115,7 +115,7 @@ public class CheckDoppelteArtikel implements java.io.Serializable {
 
 	public PasswordAuthentication getPasswordAuthentication() {
 
-	    return new PasswordAuthentication("info@wplag.de", "6Dukg6*7");
+	    return new PasswordAuthentication("xxxx", "xxxx");
 	}
     }
 
